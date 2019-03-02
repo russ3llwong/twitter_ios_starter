@@ -9,6 +9,10 @@
 import UIKit
 
 class LoginViewController: UIViewController {
+    
+    let myRefreshControl = UIRefreshControl()
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
